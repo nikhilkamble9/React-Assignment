@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+.AppComponentGrp{
+  display: flex;
+}
+.Yellow {
+  display: inline-block;
+  width: 50%;
+  height: 30vh;
+  background-color: yellow;
+  margin-right: 10px;
+}
+.Yellow:last-child{
+  margin-right: 0px;
+}
+.Red{
+  display: inline-block;
+  width: 100%;
+  height: 30vh;
+  background-color: red;
+  margin-top: 10px;
+}
+.Blue{
+  display: inline-block;
+  width: 33.33%;
+  height: 30vh;
+  background-color: blue;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.Blue:last-child{
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 768px){
+  .AppComponentGrp:last-child{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .Yellow{
+    display: inline-block;
+    width: 50%;
+    height: 20vh;
+  }
+  .Blue{
+    display: inline-block;
+    width: 100%;
+    height: 23vh;
+  }
+  .Blue:last-child{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .AppComponentGrp:first-child{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .Yellow{
+    width: 100%;
+    height: 17.5vh;
+  }
+  .Yellow:first-child{
+    margin-bottom: 10px;
+  }
+  .Red{
+    height: 23vh;
+  }
+  .Blue{
+    height: 17vh;
+  }
+  .Blue:last-child{
+    display: none;
+  }
+}
