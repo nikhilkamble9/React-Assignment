@@ -15,7 +15,7 @@ const employee = {
 
 ReactDOM.render(
   <React.StrictMode>
-    <App employee={employee} />
+    <App employee={employee}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
