@@ -1,0 +1,17 @@
+.Orderinfo > * {
+    width: 33.33%;
+}
+.Orderinfo {
+    display: flex;
+    padding: 20px;
+    background-color: #e7e7e7;
+    margin: 0px 15px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+p {
+    font-weight: bold;
+}
+span.date {
+    color: darkgrey;
+}

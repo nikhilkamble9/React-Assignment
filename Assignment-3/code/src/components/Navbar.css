@@ -1,0 +1,29 @@
+.justify-content-center {
+    justify-content: center!important;
+    height: 10vh;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 22px;
+    background-color: aliceblue;
+}
+li.nav-item {
+    display: flex;
+    height: 3vh;
+}
+li.nav-item:first-child {
+    font-weight: 700;
+}
+button.btn.btn-dark {
+    position: absolute;
+    right: 80px;
+    top: 15px;
+}
+@media only screen and (max-width: 320px){
+    button.btn.btn-dark {
+        position: absolute;
+        right: 25px;
+        top: 15px;
+    }
+}
