@@ -1,0 +1,27 @@
+{
+    "user":
+                [
+            {"name":"Nikhil",
+            "location":"Nagpur",
+            "likes":1000000,
+            "description": "Kick start your career.",
+            "PostImage": "field-ge4d2466da_1920.jpg",
+            "date": "09-04-2059"
+            },
+            {"name":"Shubham",
+            "location":"Pune",
+            "likes":30000,
+            "description": "Taking a walk with my dog.",
+            "PostImage": "man-walking-dog.jpg",
+            "date": "29-05-2059"
+            },
+            {"name":"Yogesh",
+            "location":"Haryana",
+            "likes":5000,
+            "description": "Chillin Hard!",
+            "PostImage": "Zugpsitze_mountain.jpg",
+            "date": "16-07-2059"
+            }
+            ]
+}
+              

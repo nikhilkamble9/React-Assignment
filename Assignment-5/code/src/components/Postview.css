@@ -1,0 +1,60 @@
+.PostHeader {
+  display: flex;
+  width: 47.5vw;
+  padding: 10px;
+}
+.PostHeader>* {
+  width: 49%;
+}
+.rightside {
+  text-align: end;
+  font-weight: 900;
+}
+.heading {
+  font-weight: 500;
+}
+.PostContainer {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  border: 1px solid rgb(210 203 203);
+  margin-top: 10px;
+}
+.PostContainer:last-child{
+  margin-bottom: 10px;
+}
+.location {
+  font-size: 14px;
+  color: #858282;
+}
+.PostFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.likebtn {
+  display: flex;
+  width: 100%;
+}
+button.wpO6b {
+  width: 5%;
+  border: none;
+  background-color: white;
+  margin-bottom: 0px;
+}
+.date {
+  text-align: end;
+  padding: 0px 15px;
+  width: 90%;
+}
+.likeinfo {
+  color: #7a7777;
+}
+span.like {
+  margin-left: 4px;
+}
+.discription {
+  margin-top: 10px;
+  font-weight: 500;
+}
