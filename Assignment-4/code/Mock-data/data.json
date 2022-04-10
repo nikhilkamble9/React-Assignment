@@ -1,0 +1,27 @@
+{
+    "user":
+                [
+            {"name":"Siva",
+            "location":"Bengaluru",
+            "likes":64,
+            "description": "Kick start your career.",
+            "PostImage": "field-ge4d2466da_1920.jpg",
+            "date": "15-04-2059"
+            },
+            {"name":"Neeraj",
+            "location":"Pune",
+            "likes":30,
+            "description": "Taking a walk with my dog.",
+            "PostImage": "man-walking-dog.jpg",
+            "date": "15-04-2059"
+            },
+            {"name":"Rahul",
+            "location":"Hyderabad",
+            "likes":30,
+            "description": "What is better than having a peaceful time on side of waterfall.",
+            "PostImage": "Shaqi_jrvej.jpg",
+            "date": "15-04-2059"
+            }
+            ]
+}
+              

@@ -1,0 +1,9 @@
+.details{
+    font-weight: bolder;
+    margin-right: 10px;
+}
+.Customerinfo {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 15px;
+}

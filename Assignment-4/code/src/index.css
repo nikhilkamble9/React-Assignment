@@ -11,3 +11,82 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.PostContainer {
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-top: 15px;
+}
+.PostHeader {
+    display: flex;
+    padding: 10px;
+}
+.leftside {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}.rightside {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+    font-weight: 800;
+}
+img {
+  height: 430px;
+}
+.PostFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.likebtn {
+    display: flex;
+    width: 100%;
+}
+button.wpO6b {
+  border: none;
+  background-color: white;
+}
+.date {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  bottom: 35px;
+  right: 10px;
+  color: rgb(127, 127, 127);
+}
+.heading {
+  font-weight: bold;
+}
+.location {
+  color: #888888;
+}
+.PostImage {
+    text-align: center;
+    height: 430px;
+    width: 99.785%;
+    border: 1px solid lightgray;
+}
+.PostContainer:last-child {
+  margin-bottom: 10px;
+}
+.discription {
+  font-weight: 500;
+  padding: 10px;
+}
+.likeinfo {
+  color: #7f7d7d;
+}
+
+@media only screen and (max-width: 320px){
+  .PostImage {
+    display: contents;
+}
+}
+@media only screen and (max-width: 768px){
+  .PostImage {
+    display: contents;
+}
+}
